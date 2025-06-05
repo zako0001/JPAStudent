@@ -15,7 +15,7 @@ public class StudentRestController {
     @Autowired
     StudentRepository studentRepository;
 
-    @GetMapping("/students")
+    @GetMapping("/")
     public String detteErRoden() {
         return "Du er i roden af JPAStudent.";
     }
